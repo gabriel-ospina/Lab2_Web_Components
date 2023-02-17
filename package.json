@@ -1,0 +1,22 @@
+{
+  "name": "lab2_web_components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriel-ospina/Lab2_Web_Components.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabriel-ospina/Lab2_Web_Components/issues"
+  },
+  "homepage": "https://github.com/gabriel-ospina/Lab2_Web_Components#readme",
+  "dependencies": {
+    "serve": "^14.2.0"
+  }
+}
