@@ -1,0 +1,1 @@
+export {default as videoCard} from "./videoCard/card.js"
