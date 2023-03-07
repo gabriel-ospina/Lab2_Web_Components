@@ -1,3 +1,52 @@
-body {
-    background-color: #0f0f0f;
+p {
+    color: white;
+}
+
+.video-image{
+    width: 295.8px;
+    height: 166px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.user-image{
+    width: 36.5px;
+    height: 36.5px;
+    background-size: cover;
+    background-position: center;
+}
+
+.video-content{
+    margin-left: 12px;
+}
+.video-title{
+    font-family: "Arial",sans-serif;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    max-width: 220px;
+}
+
+span{
+    display: flex;
+}
+
+.v-main-elements{
+    margin-top: 10px;
+}
+
+.smaller-text{
+    margin-top: 0px;
+    margin-bottom: 2px;
+    font-family: "Arial", sans-serif;
+    font-size: 12.39px;
+    color: rgba(255, 255, 255, 0.703);
+
+}
+
+.v-detail-elements{
+    display: flex;
+    flex-direction: column;
 }

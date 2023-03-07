@@ -1,23 +1,11 @@
-var cardAttributes;
-(function (cardAttributes){
-    cardAttributes["thumbnail"] = "thumbnail";
-    cardAttributes["title"] = "title";
-    cardAttributes["views"] = "views"
-    cardAttributes["date"] = "date"
-})(cardAttributes || (cardAttributes = {}));
-
 class videoCard extends HTMLElement {
 
     static get observedAttributes() { //Escucha los cammbios en el attributeChangedCallback
-        return Object.keys(cardAttributes);
+        return ["thumbnail", "title", "views", "date", "channel", "user", "length"];
     }
 
     constructor(){
         super();
-        this.thumbnail = '';
-        this.title = '';
-        this.views = '';
-        this.date = '';
         this.attachShadow({mode:"open"});
     }
 
@@ -35,10 +23,14 @@ class videoCard extends HTMLElement {
         return;
         this.shadowRoot.innerHTML = `
         <link rel="stylesheet" href="./src/components/videoCard/card.css">
-        <img src="${this.thumbnail || "https://www.scraapy.com/en/autoparts_images/165907301262e371f40bf89.png"}" class="v-image"></img>
-        <p>${this.title || "videoName"}</p>
-        <p>${this.views || "..."}</p>
-        <p>${this.date || "empty"}</p>
+        <div style="background-image: url(${this.thumbnail || "https://www.scraapy.com/en/autoparts_images/165907301262e371f40bf89.png"});" class="video-image"></div>
+        <span class="v-main-elements">
+        <div style="background-image: url(${this.channel || "https://magapor.com/wp-content/uploads/2022/10/USER.png"});" class="user-image"></div>
+        <div class="video-content">
+        <p class="video-title">${this.title || "videoName"}</p>
+        </span>
+        <span class="v-detail-elements"><p class="smaller-text">${this.user || "ChannelName"}</p><p class="smaller-text">${this.views || "No views"} • ${this.date || "empty"}</p></span>
+        </div>
         `
     }
 }
