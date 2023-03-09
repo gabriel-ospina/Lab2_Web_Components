@@ -2,6 +2,12 @@ p {
     color: white;
 }
 
+video-card{
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+
+
 .video-image{
     width: 295.8px;
     height: 166px;
@@ -16,6 +22,7 @@ p {
     height: 36.5px;
     background-size: cover;
     background-position: center;
+    border-radius: 50%;
 }
 
 .video-content{

@@ -2,11 +2,8 @@ body{
     background-color: #212121;
 }
 
-video-card{
-    margin-left: 16px;
-}
-
 app-container{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
