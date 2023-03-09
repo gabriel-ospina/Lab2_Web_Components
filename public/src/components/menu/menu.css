@@ -1,0 +1,28 @@
+button {
+    margin-left: 3px;
+    color: white;
+    background-color: transparent;
+    width: 204px;
+    height: 40px;
+    border: none;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 24px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(./sources/home.png);
+}
+
+.nav-button-name {
+    width: 132px;
+    display: flex;
+    justify-content: flex-start;
+}

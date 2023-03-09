@@ -2,8 +2,24 @@ body{
     background-color: #212121;
 }
 
+video-card{
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+
 app-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.vc-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.nm-section {
+    display: flex;
+    flex-direction: column;
 }
