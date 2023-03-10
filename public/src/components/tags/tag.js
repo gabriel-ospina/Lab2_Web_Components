@@ -4,7 +4,7 @@ class myTags extends HTMLElement{
         return ["tag"]
     }
 
-    constructor () {
+    constructor (){
         super();
         this.attachShadow({mode: "open"});
     }
@@ -20,10 +20,10 @@ class myTags extends HTMLElement{
 
     render() {
         this.shadowRoot.innerHTML = `
-        <P>${this.message || "crazy in love"} </P>
+        <button>${this.tag}</button>
         `;
     }
 }
 
-customElements.define('custom-tag', myTags)
+customElements.define("custom-tag", myTags)
 export default myTags;
