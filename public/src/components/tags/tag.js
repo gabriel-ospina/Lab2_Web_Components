@@ -20,6 +20,7 @@ class myTags extends HTMLElement{
 
     render() {
         this.shadowRoot.innerHTML = `
+        <link rel="stylesheet" href="./src/components/tags/tags.css">
         <button>${this.tag}</button>
         `;
     }
