@@ -15,6 +15,33 @@ const dataVideoCard = [
         user: "Ava Max",
         date: "hace 3 días",
     },
+    
+    {
+        thumbnail: "https://i.ytimg.com/vi/mpl4iNPn7QY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAvVtqWugSaYXqi-0oywnMqGIFbzQ",
+        title: "Miley Cyrus - Muddy Feet feat. Sia (Audio)",
+        views: "112,531 vistas",
+        channel: "https://yt3.googleusercontent.com/c_zqSYR5xP7lgDO8xZtbQ67MXhOel1cHlSpUTvNgQN-QOEfLcLan6-owiGECb5xE8Qid3zJUxA=s176-c-k-c0x00ffffff-no-rj",
+        user: "Miley Cyrus",
+        date: "hace 10 horas",
+    },
+    
+    {
+        thumbnail: "",
+        title: "",
+        views: "",
+        channel: "",
+        user: "",
+        date: "",
+    },
+    
+    {
+        thumbnail: "",
+        title: "",
+        views: "",
+        channel: "",
+        user: "",
+        date: "",
+    },
 
 ]
 

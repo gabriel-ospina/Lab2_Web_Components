@@ -29,7 +29,7 @@ class myHeader extends HTMLElement {
             <div class="center">
                 <form>
                     <input type= "text" placeholder="Buscar">
-                    <button style="background-image: url(${this.search || "https://static.thenounproject.com/png/4700132-200.png"});" class="search-icon"></button>
+                    <button class="search-button"><div style="background-image: url(${this.search || "https://static.thenounproject.com/png/4700132-200.png"});" class="search-icon"></div></button>
                 </form>
             </div>
             <div class="end">

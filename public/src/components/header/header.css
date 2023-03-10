@@ -45,7 +45,7 @@ header {
 }
 
 form {
-    width: 572px;
+    width: 644px;
     height: 24px;
     display: flex;
     align-items: center;
@@ -53,14 +53,33 @@ form {
 
 input {
     border-radius: 40px 0 0 40px;
-    width: 490px;
-    height: 24px;
+    width: 519px;
+    height: 40px;
+    padding: 0 4px 0 16px;
+    margin-left: 32px;
     background-color: transparent;
+    border: 1px solid #ffffff14;
+}
+
+.search-button {
+    width: 64px;
+    height: 41.6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ffffff14;
+    border-radius: 0 20px 20px 0;
+    background-color: #ffffff14;
 }
 
 .search-icon{
-    border-radius: 0 40px 40px 0;
-    background-color: #ffffff17;
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 ::placeholder {
