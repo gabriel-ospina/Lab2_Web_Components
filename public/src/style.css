@@ -31,6 +31,7 @@ app-container{
 
 .nm-section {
     display: flex;
+    margin-top: 12px;
     flex-direction: column;
 }
 

@@ -33,6 +33,7 @@ header {
 .center {
     display: flex;
     flex-direction: row;
+    align-items: center;
     height: 40px;
     width: 636px;
     margin: 0 0 0 40px;
@@ -52,6 +53,7 @@ form {
 }
 
 input {
+    color: white;
     border-radius: 40px 0 0 40px;
     width: 519px;
     height: 40px;
