@@ -2,6 +2,16 @@ body{
     background-color: #212121;
 }
 
+.big-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.recommended{
+    display: flex;
+    flex-direction: column;
+}
+
 video-card{
     margin-left: 16px;
     margin-bottom: 16px;
@@ -9,7 +19,7 @@ video-card{
 
 app-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
@@ -22,4 +32,9 @@ app-container{
 .nm-section {
     display: flex;
     flex-direction: column;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
 }

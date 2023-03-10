@@ -27,8 +27,10 @@ class myHeader extends HTMLElement {
                 <div style="background-image: url(${this.logo || "https://www.scraapy.com/en/autoparts_images/165907301262e371f40bf89.png"});" class="logo"></div>
             </div>
             <div class="center">
-                <input type= "text" "label="Buscar"></form>
-                <button style="background-image: url(${this.search || "https://static.thenounproject.com/png/4700132-200.png"});" class="search-icon"></button>
+                <form>
+                    <input type= "text" placeholder="Buscar">
+                    <button style="background-image: url(${this.search || "https://static.thenounproject.com/png/4700132-200.png"});" class="search-icon"></button>
+                </form>
             </div>
             <div class="end">
             <button style="background-image: url(${this.notif || "https://static.thenounproject.com/png/4700132-200.png"});" class="noti-icon"></button>

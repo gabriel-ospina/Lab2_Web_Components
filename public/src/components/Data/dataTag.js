@@ -3,7 +3,7 @@ const dataTag = [
         tag: "Todo"
     },
     {
-        tag: "Musica"
+        tag: "Música"
     },
     {
         tag: "Videojuegos"

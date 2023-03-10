@@ -1,0 +1,29 @@
+button {
+    display: flex;
+    justify-content: center;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    font-family: 400;
+    color: white;
+    height: 32px;
+    min-width: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: inline-flex;
+    padding: 0 12px;
+    border-radius: 8px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    background-color: #ffffff17;
+
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: flex-start;
+}

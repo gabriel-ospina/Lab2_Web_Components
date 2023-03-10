@@ -15,3 +15,56 @@ button {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 56px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 16px;
+}
+
+.start {
+    display: flex;
+    flex-direction: row;
+}
+.center {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 636px;
+    margin: 0 0 0 40px;
+    padding: 0 4px;
+}
+
+.end {
+    display: flex;
+    flex-direction: row;
+}
+
+form {
+    width: 572px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    border-radius: 40px 0 0 40px;
+    width: 490px;
+    height: 24px;
+    background-color: transparent;
+}
+
+.search-icon{
+    border-radius: 0 40px 40px 0;
+    background-color: #ffffff17;
+}
+
+::placeholder {
+    padding: 10px;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    color: #ffffff4c;
+}
