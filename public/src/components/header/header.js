@@ -1,7 +1,7 @@
 class myHeader extends HTMLElement {
 
     static get observedAttributes(){
-        return["menu", "logo", "search", "notif", "newVid"]
+        return["menu", "logo", "search", "notif", "newvid"]
     }
 
     constructor(){
@@ -34,7 +34,7 @@ class myHeader extends HTMLElement {
             </div>
             <div class="end">
             <button style="background-image: url(${this.notif || "https://static.thenounproject.com/png/4700132-200.png"});" class="noti-icon"></button>
-            <button style="background-image: url(${this.newVid || "https://static.thenounproject.com/png/4700132-200.png"});" class="newVid-icon"></button>
+            <button style="background-image: url(${this.newvid || "https://static.thenounproject.com/png/4700132-200.png"});" class="newVid-icon"></button>
             </div>
 
         </header>
