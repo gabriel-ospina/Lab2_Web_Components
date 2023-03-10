@@ -2,6 +2,7 @@ button {
     width: 24px;
     height: 24px;
     margin-right: 24px;
+    border: none;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
