@@ -1,7 +1,7 @@
 class myTags extends HTMLElement{
 
     static get observedAttributes() {
-        return ["tag"]
+        return ["tag", "selected",]
     }
 
     constructor (){
@@ -21,7 +21,7 @@ class myTags extends HTMLElement{
     render() {
         this.shadowRoot.innerHTML = `
         <link rel="stylesheet" href="./src/components/tags/tags.css">
-        <button>${this.tag}</button>
+        <button style= "${this.selected || "background-color: transparent; color: white"}">${this.tag}</button>
         `;
     }
 }
