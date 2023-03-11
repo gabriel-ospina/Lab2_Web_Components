@@ -3,7 +3,8 @@ const dataTag = [
         tag: "Todo"
     },
     {
-        tag: "Música"
+        tag: "Música",
+        selected: "background-color: white; color: black"
     },
     {
         tag: "Videojuegos"
