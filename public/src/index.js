@@ -16,7 +16,7 @@ class AppContainer extends HTMLElement {
         let varTag = "";
         dataTag.forEach(tag => {
             varTag += `
-            <custom-tag tag="${tag.tag}"></custom-tag>
+            <custom-tag tag="${tag.tag}" selected="${tag.selected}"></custom-tag>
             `
         });
 
